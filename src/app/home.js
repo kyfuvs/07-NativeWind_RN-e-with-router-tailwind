@@ -1,10 +1,9 @@
-// app/home.js
 import { View, Text } from 'react-native';
 
 export default function Home() {
   return (
-    <View className="flex-1 justify-center items-center bg-black">
-      <Text className="text-2xl text-white">Welcome to Expo Router & NativeWind</Text>
+    <View className="flex-1 items-center justify-center bg-white dark:bg-gray-800">
+      <Text className="text-black dark:text-white text-2xl">Welcome to My App</Text>
     </View>
   );
 }

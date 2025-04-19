@@ -1,0 +1,8 @@
+** install
+1. >> npx create-expo-app -e with-router-tailwind
+   Now update:
+   >> npx create-expo-app -e with-tailwindcss
+
+=============
+** Run 
+1. >> npx expo start 

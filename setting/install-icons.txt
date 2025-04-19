@@ -1,0 +1,2 @@
+** install
+1. >> npx expo install @expo/vector-icons

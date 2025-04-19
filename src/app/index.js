@@ -6,9 +6,9 @@ import Home from './home'
 
 export default function index() {
   return (
-    <View className="flex flex-1">
+   
       <Home/>
-    </View>
+
   );
 }
 

@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {},
   },
+  darkMode: 'class', // important!
   future: {
     hoverOnlyWhenSupported: true,
   },
