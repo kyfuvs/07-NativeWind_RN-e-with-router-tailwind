@@ -1,0 +1,25 @@
+Nativebase: https://nativebase.io/
+
+** install
+1. Install NativeBase and its peer dependencies:
+   >> npm install native-base react-native-svg react-native-safe-area-context react-native-vector-icons
+   >> npm install normalize-css-color
+
+2. Install fonts for NativeBase icons:
+   >> npx expo install @expo/vector-icons
+3. Wrap your app with the NativeBaseProvider:
+   -------------
+   // App.js
+import React from 'react';
+import { NativeBaseProvider, Box, Text } from 'native-base';
+
+export default function App() {
+  return (
+    <NativeBaseProvider>
+      <Box safeArea p="2" w="90%" maxW="290" py="8">
+        <Text fontSize="lg">Hello from NativeBase!</Text>
+      </Box>
+    </NativeBaseProvider>
+  );
+}
+-----------

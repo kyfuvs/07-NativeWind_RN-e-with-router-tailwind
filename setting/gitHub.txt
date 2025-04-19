@@ -1,0 +1,10 @@
+echo "# 07-NativeWind_RN-e-with-router-tailwind" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kyfuvs/07-NativeWind_RN-e-with-router-tailwind.git
+git push -u origin master
+
+==============
+1. >> git commit -m "add home"

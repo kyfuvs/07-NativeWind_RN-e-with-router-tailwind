@@ -1,0 +1,25 @@
+** Install 
+1. >> npx expo install @expo/vector-icons
+
+=========================
+Under @expo/vector-icons
+Can use the following icons:
+
+1. Ionicons
+   https://ionic.io/ionicons
+
+2. MaterialIcons
+   https://fonts.google.com/icons
+
+3. FontAwesome
+   https://fontawesome.com/v4/icons/
+
+4. Feather
+
+5. AntDesign
+
+6. Entypo
+
+7. Fontisto
+
+8. SimpleLineIcons
